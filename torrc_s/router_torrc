@@ -1,0 +1,20 @@
+TestingTorNetwork 1
+
+DirAuthority AUTH1 orport=9001 no-v2 hs v3ident=2DB09BCA8EA4A017ABCC06523CD2T785ERDS99AF 9.0.0.1:9000 B1987AFEEA26BAC4ECBACD04948573E71B072RH2
+
+Nickname 1
+RunAsDaemon 1
+ConnLimit 60
+ShutdownWaitLength 0
+ProtocolWarnings 1
+SafeLogging 0
+
+DataDirectory /root/private/data/router_1
+Log notice file /root/private/data/router_1/notice.log
+DisableDebuggerAttachment 0
+
+SocksPort 0
+OrPort 22000
+Address 9.0.1.1
+DirPort 23000
+
